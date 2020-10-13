@@ -96,14 +96,15 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  padding-top: 25px;
+  background-color: #011C27;
   height: 100%;
   width: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 0 2em;
+  
   font-size: 1.25em;
   height: 100%;
   color: #fff;
@@ -111,15 +112,17 @@ body {
 
 header,
 footer {
-  background-color: #222;
+  background-color: #FE5F55;
   height: 80px;
   width: 100%;
+  padding-top: 25px;
 }
 
 main {
-  background-color: #ccc;
+  background-color: #746D75;
   height: 250px;
   width: 100%;
+  margin-bottom: 25px;
 }
 
 header,
@@ -142,14 +145,28 @@ main {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  border:3px solid #C6D4FF;
   width: 30%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px;
 }
 
+
+h1,
+h2,
+h3,
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 16px;
+  color: #3BA99C;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
